@@ -1,4 +1,4 @@
-.navbar-logo {
+@mixin logo-style {
   width: 125px;
   height: 50px;
   background: url(../../img/logo\ \(2\).png) no-repeat;
@@ -7,9 +7,26 @@
   overflow:hidden;
   white-space:nowrap;
   display:block;
+}
+
+.navbar-logo {
+  @include logo-style;
   visibility: hidden;
 
   @media (max-width: 991px) {
     visibility: visible;
+  }
+}
+
+.navbar-sticky {
+  height: 136px;
+}
+
+.navbar-logo-desktop {
+  @include logo-style;
+  visibility: visible;
+
+  @media (max-width: 991px) {
+    visibility: hidden;
   }
 }

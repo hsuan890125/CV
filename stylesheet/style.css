@@ -12789,8 +12789,29 @@ textarea.form-control-lg {
   }
 }
 
+.navbar-sticky {
+  height: 136px;
+}
+
+.navbar-logo-desktop {
+  width: 125px;
+  height: 50px;
+  background: url(../../img/logo\ \(2\).png) no-repeat;
+  background-size: cover;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  visibility: visible;
+}
+@media (max-width: 991px) {
+  .navbar-logo-desktop {
+    visibility: hidden;
+  }
+}
+
 .banner {
-  margin-top: 136px;
+  margin: 136px 0px;
   height: 350px;
   background: url(../../img/IMG_1800.jpg) no-repeat;
   background-size: cover;
