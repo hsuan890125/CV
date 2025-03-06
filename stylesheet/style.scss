@@ -45,5 +45,9 @@
 // Utilities
 @import "../node_modules/bootstrap/scss/utilities/api";
 
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
+
 // Components
+@import "./components/_letterSpac.ing.scss";
 @import "./components/navbarLogo";
