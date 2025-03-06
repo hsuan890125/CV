@@ -1,13 +1,19 @@
-.banner {
- margin: 136px 0px;
- height: 350px; 
- background: url(../../img/IMG_1800.jpg) no-repeat;
- background-size: cover;
- background-position: right center;
+.banner-image {
+  background: url(../../img/IMG_1800.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  top:50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
 
- @media (max-width: 991px) {
-  height: 600px;
- }
+  @media (max-width: 991px) {
+    top:0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
 }
 
 .banner-logo {
@@ -19,4 +25,11 @@
   overflow:hidden;
   white-space:nowrap;
   display:block;
+}
+
+.banner-icon {
+  color: $light;
+  &:hover {
+    color: $secondary;
+  }
 }
