@@ -12765,4 +12765,20 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.navbarLogo {
+  width: 125px;
+  height: 50px;
+  background: url(../../img/logo\ \(2\).png) no-repeat;
+  background-size: cover;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  visibility: hidden;
+}
+@media (max-width: 991px) {
+  .navbarLogo {
+    visibility: visible;
+  }
 }/*# sourceMappingURL=style.css.map */
