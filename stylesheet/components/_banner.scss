@@ -1,0 +1,22 @@
+.banner {
+ margin-top: 136px;
+ height: 350px; 
+ background: url(../../img/IMG_1800.jpg) no-repeat;
+ background-size: cover;
+ background-position: right center;
+
+ @media (max-width: 991px) {
+  height: 600px;
+ }
+}
+
+.banner-logo {
+  width: 375px;
+  height: 150px;
+  background: url(../../img/白字logo.png) no-repeat;
+  background-size: cover;
+  text-indent:101%;
+  overflow:hidden;
+  white-space:nowrap;
+  display:block;
+}
