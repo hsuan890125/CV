@@ -5066,7 +5066,7 @@ textarea.form-control-lg {
 }
 
 .list-group {
-  --bs-list-group-color: var(--bs-body-color);
+  --bs-list-group-color: #000;
   --bs-list-group-bg: var(--bs-body-bg);
   --bs-list-group-border-color: var(--bs-border-color);
   --bs-list-group-border-width: var(--bs-border-width);
@@ -12818,4 +12818,17 @@ textarea.form-control-lg {
 }
 .banner-icon:hover {
   color: #6c757d;
+}
+
+h2, .h2 {
+  position: relative;
+}
+h2:after, .h2:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 70%;
+  height: 1px;
+  background-color: black;
+  margin-left: 16px;
 }/*# sourceMappingURL=style.css.map */

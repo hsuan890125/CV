@@ -1,0 +1,12 @@
+h2 {
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 70%;
+        height: 1px;
+        background-color: black;
+        margin-left: 16px;
+    }
+}
