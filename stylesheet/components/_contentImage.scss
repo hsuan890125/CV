@@ -1,0 +1,16 @@
+.sticky-container {
+  position: relative;
+}
+
+.sticky-image {
+  background: url(../../img/IMG_9622.jpg) no-repeat; 
+  background-size: cover;
+  background-position: bottom center;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+
+  position: sticky;
+  top: 144px;
+}
+
