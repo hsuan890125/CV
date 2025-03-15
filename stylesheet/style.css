@@ -12846,4 +12846,34 @@ h2:after, .h2:after {
   margin: 0 auto;
   position: sticky;
   top: 144px;
+}
+
+.sticky-workone-container {
+  position: relative;
+}
+
+.sticky-workone-image {
+  background: url(../../img/cover.png) no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  width: 320px;
+  height: 180px;
+  margin: 0 auto;
+  position: sticky;
+  top: 144px;
+}
+
+.sticky-worktwo-container {
+  position: relative;
+}
+
+.sticky-worktwo-image {
+  background: url(../../img/oilcover.png) no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  width: 320px;
+  height: 180px;
+  margin: 0 auto;
+  position: sticky;
+  top: 144px;
 }/*# sourceMappingURL=style.css.map */
