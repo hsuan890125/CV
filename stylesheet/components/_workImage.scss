@@ -1,35 +1,25 @@
-// CHERISH 飾品電商
-.sticky-workone-container {
+.sticky-work-container {
   position: relative;
+  .sticky-work-image {
+    position: sticky;
+    top: 144px;
+
+    .image-overlay {
+      visibility: hidden;
+      transition: 0.5s ease-in-out;
+    }
+  
+    &:hover {
+      .image-overlay{
+        visibility: visible;
+        background-color: rgba(0, 0, 0, 0.3);
+        outline: 1px solid $light;
+        outline-offset: -10px;
+      }
+    }
+  }
 }
 
-.sticky-workone-image {
-  background: url(../../img/cover.png) no-repeat; 
-  background-size: cover;
-  background-position: bottom center;
-  width: 320px;
-  height: 180px;
-  margin: 0 auto;
 
-  position: sticky;
-  top: 144px;
-}
-
-// 黑種草籽油 NigellaSativeOil
-.sticky-worktwo-container{
-  position: relative;
-}
-
-.sticky-worktwo-image {
-  background: url(../../img/oilcover.png) no-repeat; 
-  background-size: cover;
-  background-position: bottom center;
-  width: 320px;
-  height: 180px;
-  margin: 0 auto;
-
-  position: sticky;
-  top: 144px;
-}
 
   
