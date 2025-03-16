@@ -12827,10 +12827,15 @@ h2:after, .h2:after {
   content: "";
   position: absolute;
   top: 50%;
-  width: 50%;
+  width: 60%;
   height: 1px;
   background-color: black;
   margin-left: 16px;
+}
+@media (max-width: 991px) {
+  h2:after, .h2:after {
+    width: 50%;
+  }
 }
 
 .sticky-container {
