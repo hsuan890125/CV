@@ -12775,7 +12775,7 @@ textarea.form-control-lg {
 .navbar-logo {
   width: 125px;
   height: 50px;
-  background: url(../../img/logo\ \(2\).png) no-repeat;
+  background: url(../img/logo\ \(2\).png) no-repeat;
   background-size: cover;
   text-indent: 101%;
   overflow: hidden;
@@ -12784,7 +12784,7 @@ textarea.form-control-lg {
 }
 
 .banner-image {
-  background: url(../../img/IMG_1800.jpg) no-repeat;
+  background: url(../img/IMG_1800.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -12805,7 +12805,7 @@ textarea.form-control-lg {
 .banner-logo {
   width: 375px;
   height: 150px;
-  background: url(../../img/白字logo.png) no-repeat;
+  background: url(../img/白字logo.png) no-repeat;
   background-size: cover;
   text-indent: 101%;
   overflow: hidden;
@@ -12843,7 +12843,7 @@ h2:after, .h2:after {
 }
 
 .sticky-image {
-  background: url(../../img/IMG_9622.jpg) no-repeat;
+  background: url(../img/IMG_9622.jpg) no-repeat;
   background-size: cover;
   background-position: bottom center;
   width: 300px;
