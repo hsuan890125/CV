@@ -12783,7 +12783,14 @@ textarea.form-control-lg {
   display: block;
 }
 
+.banner-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
 .banner-image {
+  position: absolute;
   background: url(../img/IMG_1800.jpg) no-repeat;
   background-size: cover;
   background-position: center center;

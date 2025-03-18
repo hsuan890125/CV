@@ -1,8 +1,16 @@
+.banner-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
 .banner-image {
+  position: absolute;
   background: url(../img/IMG_1800.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+
   top:50px;
   left: 50px;
   right: 50px;
